@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.logout-button {
+  font-size: 1.25rem;
+  font-weight: bold;
+}

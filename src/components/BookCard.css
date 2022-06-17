@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid grey;
+  margin: 2%;
+
+  font-size: 20px;
+  width: min-content;
+}
+
+.main {
+  display: flex;
+  width: max-content;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.info h3 {
+  margin: zero;
+}
+
+.inventory {
+  display: flex;
+}
+
+.inventory div {
+  align-self: center;
+
+  margin: 0;
+
+  width: 150px;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+  margin: 2%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  /* border-left: 1px dashed black; */
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.buttons button {
+  height: 75px;
+  width: 100px;
+  border-radius: 5%;
+}
